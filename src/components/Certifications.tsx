@@ -29,7 +29,7 @@ const Certifications: React.FC = () => {
                     ? 'bg-green-100 text-green-800' 
                     : 'bg-yellow-100 text-yellow-800'
                 }`}>
-                  {cert.status === 'earned' ? 'Certified' : 'In Progress'}
+                  {cert.status === 'earned' ? 'Certified' : 'Achieved'}
                 </span>
               </div>
 
@@ -45,7 +45,7 @@ const Certifications: React.FC = () => {
 
               <div className="pt-4 border-t border-gray-200">
                 <button className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-200">
-                  View Details
+                  <a href="https://www.credly.com/users/rifki-karim-ramadhan">View Details</a>
                   <ExternalLink className="ml-2 h-4 w-4" />
                 </button>
               </div>
@@ -60,7 +60,7 @@ const Certifications: React.FC = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 italic">
-            * Certifications marked "In Progress" represent planned achievements for 2024
+            * Certifications marked "Achieved" represent achievements for 2023 and 2024
           </p>
         </div>
       </div>

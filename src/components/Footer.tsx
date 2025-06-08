@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Cloud className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold font-mono">CloudEngineer</span>
+              <span className="text-xl font-bold font-mono">Karim Web</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Building scalable, reliable cloud infrastructure across AWS, GCP, and Azure. 
@@ -48,18 +48,18 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold">Connect</h3>
             <div className="space-y-3">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:rifkikarimr@gmail.com"
                 className="flex items-center text-gray-400 hover:text-blue-400 transition-colors duration-200"
               >
                 <Mail className="h-5 w-5 mr-3" />
-                your.email@example.com
+                Rifki Karim Ramadhan
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com/in/rifkikarimr"
                 className="flex items-center text-gray-400 hover:text-blue-400 transition-colors duration-200"
               >
                 <Linkedin className="h-5 w-5 mr-3" />
-                LinkedIn Profile
+                Rifki Karim Ramadhan
               </a>
             </div>
           </div>

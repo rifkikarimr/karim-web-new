@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Linkedin, Send, MapPin, Phone } from 'lucide-react';
+import { Mail, Linkedin, Send, MapPin } from 'lucide-react';
 import { ContactForm } from '../types';
 
 const Contact: React.FC = () => {
@@ -62,8 +62,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <a href="mailto:your.email@example.com" className="text-blue-600 hover:text-blue-800 transition-colors">
-                    your.email@example.com
+                  <a href="mailto:rifkikarimr@gmail.com" className="text-blue-600 hover:text-blue-800 transition-colors">
+                    rifkikarimr@gmail.com
                   </a>
                 </div>
               </div>
@@ -74,8 +74,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">LinkedIn</h4>
-                  <a href="https://linkedin.com/in/yourprofile" className="text-blue-600 hover:text-blue-800 transition-colors">
-                    linkedin.com/in/yourprofile
+                  <a href="https://linkedin.com/in/rifkikarimr" className="text-blue-600 hover:text-blue-800 transition-colors">
+                    Rifki Karim Ramadhan
                   </a>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">Available for remote work worldwide</p>
+                  <p className="text-gray-600">Available for remote work worldwide and Onsite (Indonesia Region)</p>
                 </div>
               </div>
             </div>

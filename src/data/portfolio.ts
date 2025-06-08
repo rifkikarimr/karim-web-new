@@ -3,10 +3,10 @@ import { Project, Experience, Certification, BlogPost } from '../types';
 export const projects: Project[] = [
   {
     id: '1',
-    name: 'Multi-Cloud Infrastructure Automation',
+    name: 'Cloud Infrastructure Automation',
     description: 'Designed and implemented automated infrastructure deployment across AWS, GCP, and Azure using Terraform and CI/CD pipelines.',
-    technologies: ['Terraform', 'AWS', 'GCP', 'Azure', 'GitHub Actions', 'Docker'],
-    outcome: 'Reduced deployment time by 75% and eliminated manual configuration errors, serving 10M+ requests monthly.',
+    technologies: ['Terraform', 'AWS', 'GCP', 'Azure', 'Alibaba Cloud','GitHub Actions', 'Docker', 'Kubernetes', 'Jenkins'],
+    outcome: 'Reduced deployment time by 75% and eliminated manual configuration errors.',
   },
   {
     id: '2',
@@ -20,7 +20,7 @@ export const projects: Project[] = [
     name: 'Secure SFTP & Encryption Pipeline',
     description: 'Developed secure file transfer system with end-to-end encryption for sensitive data processing and SAP integration.',
     technologies: ['SFTP', 'AES Encryption', 'SAP', 'Python', 'AWS S3', 'Lambda'],
-    outcome: 'Processed 1TB+ daily data transfers with zero security incidents and 99.95% success rate.',
+    outcome: 'Processed 1TB+ daily data transfers with zero security incidents.',
   },
 ];
 
@@ -70,20 +70,20 @@ export const experiences: Experience[] = [
 export const certifications: Certification[] = [
   {
     id: '1',
-    name: 'AWS Certified Solutions Architect',
-    issuer: 'Amazon Web Services',
+    name: 'Associate Cloud Engineer',
+    issuer: 'Google Cloud Platform',
     status: 'placeholder',
   },
   {
     id: '2',
-    name: 'Google Cloud Professional Engineer',
-    issuer: 'Google Cloud',
+    name: 'Professional Cloud Architect',
+    issuer: 'Google Cloud Platform',
     status: 'placeholder',
   },
   {
     id: '3',
-    name: 'Azure Administrator Associate',
-    issuer: 'Microsoft Azure',
+    name: 'Professional Cloud DevOps Engineer',
+    issuer: 'Google Cloud Platform',
     status: 'placeholder',
   },
 ];

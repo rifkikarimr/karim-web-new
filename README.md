@@ -74,8 +74,8 @@ A modern, responsive portfolio website showcasing cloud engineering expertise ac
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/cloud-engineer-portfolio.git
-   cd cloud-engineer-portfolio
+   git clone https://github.com/rifkikarimr/karim-web-new.git
+   cd karim-web-new
    ```
 
 2. **Install dependencies**
